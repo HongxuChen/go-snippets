@@ -1,0 +1,42 @@
+
+# Gopkg.toml example
+#
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+ [[constraint]]
+   name = "github.com/decred/politeia"
+   branch = "master"
+   source = "github.com/decred/politeia"
+
+[[constraint]]
+   name = "go.uber.org/zap"
+   version = "1.7.1"
+   source = "go.uber.org/zap"
+
+[[constraint]]
+   name = "github.com/godbus/dbus"
+   source = "github.com/godbus/dbus"
+
+[[constraint]]
+   name = "github.com/hackebrot/turtle"
+   source = "github.com/hackebrot/turtle"
+
+[[constraint]]
+   name = "github.com/onsi/gomega"
+   source = "github.com/onsi/gomega"
+
+[[constraint]]
+  name = "mvdan.cc/xurls"
+  version = "1.1.0"
+
+[[constraint]]
+  branch = "v25"
+  name = "gopkg.in/libgit2/git2go.v25"
